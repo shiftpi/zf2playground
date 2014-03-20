@@ -61,7 +61,7 @@ return array(
             'translator' => 'MvcTranslator',
         ),
         'delegators' => array(
-        	'my-service' => array(
+        	'Smtest\Service\MyService' => array(
         	   'Application\Service\MyServiceDelegatorFactory',
         	   'Application\Service\MyServiceSecondDelegatorFactory',
             ),
