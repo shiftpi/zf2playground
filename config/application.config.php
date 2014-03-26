@@ -9,6 +9,7 @@ return array(
     'modules' => array(
         'Smtest',
         'Application',
+        'Customer',
     ),
     'module_listener_options' => array(
         'module_paths' => array(
